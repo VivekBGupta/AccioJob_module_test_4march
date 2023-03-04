@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conatiner {
+  background-color: #0c0c0c;
+  height: 100vh;
+  padding: 2rem 20rem;
+}
+
+.conatiner h1 {
+  color: #fff;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid rgb(184, 184, 184);
+  padding-bottom: 15px;
+}
+
+.conatiner .header {
+  display: flex;
+  color: #ffffff;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.3rem 2rem;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.searh-data {
+  border: 1px solid #797979;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+
+#listData {
+  border: 1px solid #636363;
+}
